@@ -12,7 +12,9 @@
 }
 
 @media (max-width:575px)  {
-  
+  .bg-img {
+    padding:300px 0
+  }
 }
 
 
