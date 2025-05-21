@@ -203,3 +203,15 @@ ul{
   color: black;
   font-weight: 700;
 }
+.main_menu_off li a{
+  /* margin: 10px  0px !important; */
+  color: black;
+  font-weight: 600;
+  font-family: "roboto";
+}
+.main_menu_off li{
+  padding: 10px 20px;
+}
+.offcanvas.offcanvas-end{
+  width: 250px
+}
