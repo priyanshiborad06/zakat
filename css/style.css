@@ -199,3 +199,7 @@ ul{
     color: #fac42b;
   }
 }
+.offcanvas_nev a{
+  color: black;
+  font-weight: 700;
+}

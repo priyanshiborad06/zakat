@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="buttom_header">
         <div class="container">
@@ -38,69 +40,95 @@
                             <a href="#">BLOG</a>
                         </li>
                     </ul>
-                </nav>
-                <button class="btn  border-1 d-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                    <i class="fa-solid fa-bars"></i>
-                   </button>
-                   
-                   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                     <div class="offcanvas-header">
-                       <h5 class="offcanvas-title" id="offcanvasExampleLabel">Close</h5>
-                       <nav>
-                         <ul>
-                            <li>
-                                <a href="#">HOME</a>
-                            </li>
-                            <li>
-                                <a href="#about">ABOUT</a>
-                            </li>
-                            <li>
-                                <a href="#program">PROGRAMS</a>
-                            </li>
-                            <li>
-                                <a href="#stories">STORIES</a>
-                            </li>
-                            <li>
-                                <a href="#events">EVENT</a>
-                            </li>
-                            <li>
-                                <a href="#">BLOG</a>
-                            </li>
-                         </ul>
-                       </nav>
-                       <div class="dropdown mt-3">
-                         <!-- <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"> -->
-                           <!-- Dropdown button -->
-                         <!-- </button> -->
-                         <ul class="dropdown-menu">
-                           <li><a class="dropdown-item" href="#">Action</a></li>
-                           <li><a class="dropdown-item" href="#">Another action</a></li>
-                           <li><a class="dropdown-item" href="#">Something else here</a></li>
-                         </ul>
-                       </div>
-                     </div>
-                   </div>
-            </div>
 
+                </nav>
+                <div class="col-auto text-end ">
+                    <div class="d-flex align-items-center py-lg-3">
+                        <!-- <a href="#" class=" thm_black d-md-block d-xxl-block px-xl-3 py-md-4 py-lg-4 "><i class="bi bi-search pe-xl-4  fs-5 balck"></i></a> -->
+
+                        <!-- <a href="#"><i class="fa-solid fa-magnifying-glass ps-5 fs-4 balck text-end"></i></a> -->
+                        <a data-bs-toggle="offcanvas" class="d-none d-xl-block thm_black z-2" href="#contact_sidebar"
+                            role="button" aria-controls="offcanvasExample"><i
+                                class="fa-solid fa-bars fs-4 balck"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        
+
     </header>
-   
-     
+    <div class="offcanvas offcanvas-end  sidebar" tabindex="-1" id="menu_sidebar"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header_sidebar">
+            <a href="#" class=" "><img src="images/asset 23.png" alt="" class="menu_logo sidebar_logo"></a>
+        </div>
+        <div class="offcanvas-body_sidebar overflow-auto">
+            <div>
+                <nav>
+                    <ul class="sidebar_main_menu">
+                        <li class="a_arrow"><a href="index.html">HOME</a></li>
+                        <li class="a_arrow">
+                            <a href="#">ABOUT</a><i
+                                class="fa-solid fa-chevron-right wight arrow justify-content-center flex align-items-center"></i>
+                            <ul class="sidebar_sub_menu">
+                                <li><a href="aobut.html">ABOUT US</a></li>
+                                <li><a href="Team.html">TEAM</a></li>
+                                <li><a href="Venue.html">VENEU</a></li>
+                                <li><a href="FAQ.html">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li class="a_arrow">
+                            <a href="Venue.html">VENEU</a>
+                        </li>
+                        <li class="a_arrow">
+                            <a href="#">PAGES</a><i
+                                class="fa-solid fa-chevron-right wight arrow justify-content-center flex align-items-center"></i>
+                            <ul class="sidebar_sub_menu">
+                                <li><a href="Event.html">EVENTS</a></li>
+                                <li><a href="aobut.html">ABOUT US</a></li>
+                                <li><a href="Team.html">TEAM</a></li>
+                                <li><a href="Venue.html">VENEU</a></li>
+                                <li><a href="FAQ.html">FAQ</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="a_arrow"><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="dropdown mt-3">
+
+
+                <div class="lightfont text-center fs-6 w-50  m-auto ">
+                    (c)2020
+                    <a href="#" class="wight">Muzex</a>- All rights reserved.
+                </div>
+                <div class="sidebar_icon text-center">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <main>
         <div class="bg-img mb-5  ">
-            
-             <div class="container ">
-                <p class="silder_text fw-bold text-white text-break">FUTURES<br> 
+
+            <div class="container ">
+                <p class="silder_text fw-bold text-white text-break">FUTURES<br>
                     FOR CHILDREN</p>
                 <p class="text-white roboto lh-base">QUISQUE COMMODO JUSTO METUS,DIGNISSIM <br>
                     VULPUTATE EST DIGNISSIM ID.</p>
 
-                <button class="btn text-white btn_bg py-2 fw-bold my-3 rounded-0 text-black silder_btn">VIEW MORE</button>
+                <button class="btn text-white btn_bg py-2 fw-bold my-3 rounded-0 text-black silder_btn">VIEW
+                    MORE</button>
             </div>
         </div>
-    
-        <div  id="about">
+
+        <div id="about">
             <div class="container">
                 <h2 class="fw-bold">ABOUT US</h2>
                 <p class="grey_text  roboto">NULLAM VULPUTATE LACUS QUIS PURUS ORNARE, NON VEHICULA FELIS MOLLIS.</p>
@@ -109,122 +137,153 @@
 
                 <h3 class="fw-bold">Be sponsor for a child</h3>
                 <div class="row">
-                    <div class="col-lg grey_text fs-6 me-2 roboto lh-base my-2">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam in laoreet mi. Fusce fermentum consectetur nunc, in bibendum quam condimentum nec. Aliquam faucibus dolor sit amet neque porta accumsan. Maecenas placerat dui ut purus molestie, sit amet euismod velit consectetur.</div>
-                    <div class="col-lg grey_text fs-6 me-2 roboto lh-base my-2">Etiam interdum ullamcorper arcu sit amet semper. In felis elit, viverra vel leo nec, mollis tristique ante. Suspendisse sed cursus tellus. Etiam ut risus dui. Vestibulum nulla lectus, fringilla nec nibh id, viverra lacinia justo. Suspendisse malesuada nisl dolor, nec congue ante commodo eu.</div>
-                    <div class="col-lg grey_text fs-6 me-2 roboto lh-base my-2">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam in laoreet mi. Fusce fermentum consectetur nunc, in bibendum quam condimentum nec. Aliquam faucibus dolor sit amet neque porta accumsan. Maecenas placerat dui ut purus molestie, sit amet euismod velit consectetur.</div>
+                    <div class="col-lg grey_text fs-6 me-2 roboto lh-base my-2">Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. Nam in laoreet mi. Fusce fermentum
+                        consectetur nunc, in bibendum quam condimentum nec. Aliquam faucibus dolor sit amet neque porta
+                        accumsan. Maecenas placerat dui ut purus molestie, sit amet euismod velit consectetur.</div>
+                    <div class="col-lg grey_text fs-6 me-2 roboto lh-base my-2">Etiam interdum ullamcorper arcu sit amet
+                        semper. In felis elit, viverra vel leo nec, mollis tristique ante. Suspendisse sed cursus
+                        tellus. Etiam ut risus dui. Vestibulum nulla lectus, fringilla nec nibh id, viverra lacinia
+                        justo. Suspendisse malesuada nisl dolor, nec congue ante commodo eu.</div>
+                    <div class="col-lg grey_text fs-6 me-2 roboto lh-base my-2">Class aptent taciti sociosqu ad litora
+                        torquent per conubia nostra, per inceptos himenaeos. Nam in laoreet mi. Fusce fermentum
+                        consectetur nunc, in bibendum quam condimentum nec. Aliquam faucibus dolor sit amet neque porta
+                        accumsan. Maecenas placerat dui ut purus molestie, sit amet euismod velit consectetur.</div>
                 </div>
-                
+
                 <div class="row  mt-5">
                     <div class="col-lg service m-2 p-3 ">
                         <i class="fa-solid fa-pencil fs-1 y-color pt-3"></i>
                         <h4 class="fw-bold mt-4">EDUCATION</h4>
-                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                            ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan
+                            sagittis, vulputate non lorem. Vestibulum cursus</p>
                     </div>
                     <div class="col-lg service m-2 p-3">
                         <i class="fa-solid fa-stethoscope fs-1 y-color pt-3"></i>
                         <h4 class="fw-bold mt-4">HEALTH</h4>
-                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                            ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan
+                            sagittis, vulputate non lorem. Vestibulum cursus</p>
                     </div>
                     <div class="col-lg service m-2 p-3">
                         <i class="fa-solid fa-umbrella fs-1 y-color pt-3"></i>
                         <h4 class="fw-bold mt-4">PROTECT</h4>
-                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                            ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan
+                            sagittis, vulputate non lorem. Vestibulum cursus</p>
                     </div>
                     <div class="col-lg  service m-2 p-3">
                         <i class="fa-solid fa-burger fs-1 y-color pt-3"></i>
                         <h4 class="fw-bold mt-4">FOOD AID</h4>
-                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                        <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                            ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae accumsan
+                            sagittis, vulputate non lorem. Vestibulum cursus</p>
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
- 
+
         <div class="programs_img mt-5" id="program">
             <div class="container">
                 <h2 class="fw-bold mt-5 z-3">
                     programs</h2>
-                <p class="roboto z-3 text-black">NULLAM VULPUTATE LACUS QUIS PURUS ORNARE, NON VEHICULA FELIS MOLLIS.</p>
+                <p class="roboto z-3 text-black">NULLAM VULPUTATE LACUS QUIS PURUS ORNARE, NON VEHICULA FELIS MOLLIS.
+                </p>
                 <div class="row p-3">
                     <div class="col-lg p-0 mx-lg-3 mb-5 bg-white">
                         <img src="img/program1.png" alt="" class="w-100 ">
-                        
+
                         <div class="ps-3">
-                        <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
-                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat  volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
-                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ MORE</button>
+                            <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
+                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                                ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae
+                                accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ
+                                MORE</button>
                         </div>
                     </div>
 
                     <div class="col-lg bg-white mb-5 p-0 mx-lg-3">
                         <img src="img/program2.png" alt="" class="w-100 ">
-                       
+
                         <div class="ps-3">
-                        <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
-                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat  volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
-                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ MORE</button>
+                            <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
+                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                                ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae
+                                accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ
+                                MORE</button>
                         </div>
                     </div>
                     <div class="col-lg bg-white mb-5 p-0 mx-lg-3">
-                        <img src="img/program3.png" alt="" class="w-100 position-relative"> 
+                        <img src="img/program3.png" alt="" class="w-100 position-relative">
 
                         <div class="ps-3">
-                        <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
-                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat  volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
-                            <button class="btn text-white btn_bg mb-3  btn_size rounded-0 text-black ">READ MORE</button>
+                            <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
+                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                                ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae
+                                accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                            <button class="btn text-white btn_bg mb-3  btn_size rounded-0 text-black ">READ
+                                MORE</button>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>
 
-       <div class="my-5">
+        <div class="my-5">
             <div class="container">
                 <div class="wrappern ">
-                   <div class="row">
-                    <div class="counter col-lg-3 col-md-6 text-center">
-                        <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
-                        <p class="count-text ">program</p>
-                        <i class="fa-solid fa-cubes fs-3 y-color my-3 "></i>
-                     </div>
-            
-                     <div class="counter col-lg-3 col-md-6 text-center">
-                        <h2 class="timer count-title count-number" data-to="1453" data-speed="1500"></h2>
-                        <p class="count-text ">childrens</p>
-                        <i class="fa-solid fa-child-reaching fs-3 y-color my-3"></i>
+                    <div class="row">
+                        <div class="counter col-lg-3 col-md-6 text-center">
+                            <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+                            <p class="count-text ">program</p>
+                            <i class="fa-solid fa-cubes fs-3 y-color my-3 "></i>
+                        </div>
+
+                        <div class="counter col-lg-3 col-md-6 text-center">
+                            <h2 class="timer count-title count-number" data-to="1453" data-speed="1500"></h2>
+                            <p class="count-text ">childrens</p>
+                            <i class="fa-solid fa-child-reaching fs-3 y-color my-3"></i>
+                        </div>
+
+                        <div class="counter col-lg-3 col-md-6 text-center">
+                            <h2 class="timer count-title count-number" data-to="570" data-speed="1500"></h2>
+                            <p class="count-text ">charitable</p>
+                            <i class="fa-solid fa-users fs-3 y-color my-3"></i>
+                        </div>
+
+                        <div class="counter col-lg-3 col-md-6 end text-center">
+                            <h2 class="timer count-title count-number" data-to="19658" data-speed="1500"></h2>
+                            <p class="count-text ">donation</p>
+                            <i class="fa-solid fa-hand-holding-dollar fs-3  y-color my-3"></i>
+                        </div>
                     </div>
-            
-                    <div class="counter col-lg-3 col-md-6 text-center">
-                        <h2 class="timer count-title count-number" data-to="570" data-speed="1500"></h2>
-                        <p class="count-text ">charitable</p>
-                        <i class="fa-solid fa-users fs-3 y-color my-3"></i>
-                    </div>
-            
-                    <div class="counter col-lg-3 col-md-6 end text-center">
-                        <h2 class="timer count-title count-number" data-to="19658" data-speed="1500"></h2>
-                        <p class="count-text ">donation</p>
-                        <i class="fa-solid fa-hand-holding-dollar fs-3  y-color my-3"></i>
-                    </div>
-                   </div>
                 </div>
             </div>
-       </div>
+        </div>
 
         <div class="btn_bg " id="stories">
             <div class="container">
                 <h2 class="fw-bold pt-4 ">
                     STORIES</h2>
-                <p class="roboto z-3 text-black">NULLAM VULPUTATE LACUS QUIS PURUS ORNARE, NON VEHICULA FELIS MOLLIS.</p>
+                <p class="roboto z-3 text-black">NULLAM VULPUTATE LACUS QUIS PURUS ORNARE, NON VEHICULA FELIS MOLLIS.
+                </p>
                 <div class="row p-3">
                     <div class="col-lg p-0 mb-5 mx-lg-3 bg-white">
                         <img src="img/story1.png" alt="" class="w-100 ">
 
                         <div class="ps-3">
-                        <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
-                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat  volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
-                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ MORE</button>
+                            <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
+                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                                ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae
+                                accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ
+                                MORE</button>
                         </div>
                     </div>
 
@@ -232,9 +291,12 @@
                         <img src="img/story2.png" alt="" class="w-100 ">
 
                         <div class="ps-3">
-                        <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
-                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat  volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
-                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ MORE</button>
+                            <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
+                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                                ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae
+                                accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                            <button class="btn text-white btn_bg  mb-3 btn_size rounded-0 text-black ">READ
+                                MORE</button>
                         </div>
                     </div>
                     <div class="col-lg mb-5 bg-white p-0 mx-lg-3">
@@ -242,27 +304,33 @@
                         <i class="fa-solid fs-1 y-color pt-3"></i>
 
                         <div class="ps-3">
-                        <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
-                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur ultrices congue tellus. Aliquam erat  volutpat. Quisque purus ipsum, accumsan vitae accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
-                            <button class="btn text-white btn_bg mb-3  btn_size rounded-0 text-black ">READ MORE</button>
+                            <h4 class="fw-bold mt-4">Nullam vulputate lacus</h4>
+                            <p class="grey_text fs-6 me-2 roboto lh-base">Donec quis nisi a risus egestas consectetur
+                                ultrices congue tellus. Aliquam erat volutpat. Quisque purus ipsum, accumsan vitae
+                                accumsan sagittis, vulputate non lorem. Vestibulum cursus</p>
+                            <button class="btn text-white btn_bg mb-3  btn_size rounded-0 text-black ">READ
+                                MORE</button>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col-lg-7 ">
                         <p class="text-black fs-4">YOU’VE HELPED US RAISE A STAGGERING
-                            <p class=" font_size-55 fw-bold text-black">$53.426</p>
+                        <p class=" font_size-55 fw-bold text-black">$53.426</p>
                         </p>
                     </div>
                     <div class="col-lg-5 text-lg-end">
-                        <p class="roboto lh-base ">Pellentesque eu malesuada nisi. Phasellus eget ornare arcu, et condimentum arcu. Phasellus vitae posuere nisi, at venenatis velit. Morbi lacinia lacus non consectetur accumsan.</p>
+                        <p class="roboto lh-base ">Pellentesque eu malesuada nisi. Phasellus eget ornare arcu, et
+                            condimentum arcu. Phasellus vitae posuere nisi, at venenatis velit. Morbi lacinia lacus non
+                            consectetur accumsan.</p>
 
-                        <button class="btn text-white bg-black py-2 fw-bold my-3 rounded-0 text-black silder_btn">DONATE</button>
+                        <button
+                            class="btn text-white bg-black py-2 fw-bold my-3 rounded-0 text-black silder_btn">DONATE</button>
 
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
         <div class="container">
             <h2 class="fw-bold pt-4 " id="events">events</h2>
@@ -274,58 +342,68 @@
                 </div>
                 <div class="col-lg-6 ">
                     <h4 class="fw-bold ">See Where We Active</h4>
-                    <p class="grey_text fs-6  roboto lh-base">Vivamus non libero aliquam, molestie metus ac, dapibus dolor. Suspendisse potenti. Fusce blandit lectus nunc, ac ornare est gravida at. Nulla pulvinar dapibus purus, a posuere elit sollicitudin nec. Aliquam vulputate quam sit amet vehicula accumsan. Maecenas imperdiet congue tellus, sit amet ornare risus condimentum sit amet. Etiam sit amet fermentum felis, tristique lacinia turpis. Nam ac arcu ut lacus tristique varius. Fusce neque lacus, semper ut lobortis a, porttitor eu arcu. Curabitur placerat metus velit. Proin iaculis urna quis nisl luctus, at iaculis arcu malesuada. Aenean id consequat sem. Morbi vel cursus quam. Aenean at sodales neque. Nunc sagittis placerat eros, id vestibulum dui condimentum quis. Praesent ac tincidunt neque</p>
+                    <p class="grey_text fs-6  roboto lh-base">Vivamus non libero aliquam, molestie metus ac, dapibus
+                        dolor. Suspendisse potenti. Fusce blandit lectus nunc, ac ornare est gravida at. Nulla pulvinar
+                        dapibus purus, a posuere elit sollicitudin nec. Aliquam vulputate quam sit amet vehicula
+                        accumsan. Maecenas imperdiet congue tellus, sit amet ornare risus condimentum sit amet. Etiam
+                        sit amet fermentum felis, tristique lacinia turpis. Nam ac arcu ut lacus tristique varius. Fusce
+                        neque lacus, semper ut lobortis a, porttitor eu arcu. Curabitur placerat metus velit. Proin
+                        iaculis urna quis nisl luctus, at iaculis arcu malesuada. Aenean id consequat sem. Morbi vel
+                        cursus quam. Aenean at sodales neque. Nunc sagittis placerat eros, id vestibulum dui condimentum
+                        quis. Praesent ac tincidunt neque</p>
 
                     <h4 class="fw-bold mb-4 ">Upcoming Events</h4>
-                    
-                    <div class="owl-carousel py-3" id="Upcoming">
-                     
-                            <div class="col flex align-content-center align-items-center ">
-                                <i class="fa-solid fa-stethoscope fs-1 text-black accordion btn_bg p-5 "></i>
-                                <div class="ps-3">
-                                    <h4 class="fw-bold ">Sed vulputate sem magna</h4>
-                                    <p class="fs-6  roboto lh-base">Vestibulum vel accumsan arcu. Duis nisl purus, interdum nec arcu nec, rutrum neque.</p>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <font class=" roboto">Sry</font>
-                                    <i class="fa-regular fa-clock fs-6 ps-2"></i>
-                                    <font class=" roboto ">April 6,2020 @ 8:00 am</font>
 
-                                </div>
-                            </div>    
-                    
+                    <div class="owl-carousel py-3" id="Upcoming">
+
+                        <div class="col flex align-content-center align-items-center ">
+                            <i class="fa-solid fa-stethoscope fs-1 text-black accordion btn_bg p-5 "></i>
+                            <div class="ps-3">
+                                <h4 class="fw-bold ">Sed vulputate sem magna</h4>
+                                <p class="fs-6  roboto lh-base">Vestibulum vel accumsan arcu. Duis nisl purus, interdum
+                                    nec arcu nec, rutrum neque.</p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <font class=" roboto">Sry</font>
+                                <i class="fa-regular fa-clock fs-6 ps-2"></i>
+                                <font class=" roboto ">April 6,2020 @ 8:00 am</font>
+
+                            </div>
+                        </div>
+
                         <div>
                             <div class="col flex align-content-center align-items-center ">
                                 <i class="fa-solid fa-house fs-1 text-black accordion btn_bg p-5 "></i>
                                 <div class="ps-3">
                                     <h4 class="fw-bold ">Quisque velit felis</h4>
-                                    <p class="fs-6  roboto lh-base">Vestibulum vel accumsan arcu. Duis nisl purus, interdum nec arcu nec, rutrum neque.</p>
+                                    <p class="fs-6  roboto lh-base">Vestibulum vel accumsan arcu. Duis nisl purus,
+                                        interdum nec arcu nec, rutrum neque.</p>
                                     <i class="fa-solid fa-location-dot"></i>
                                     <font class=" roboto">Sry</font>
                                     <i class="fa-regular fa-clock fs-6 ps-2"></i>
                                     <font class=" roboto ">April 6,2020 @ 8:00 am</font>
 
                                 </div>
-                            </div>    
+                            </div>
                         </div>
 
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
 
         <div class="container text-center">
             <h4 class="fw-bold mb-4  ">Our Sponspors</h4>
-           <center> 
-            <div class="owl-carousel owl-theme row " id="PROJECTS">
-                <div class=" "><img src="img/logo1.png" alt="" class="w-auto"></div>
-                <div class=""><img src="img/logo2.png" alt="" class="w-auto"></div>
-                <div class=""><img src="img/logo3.png" alt="" class="w-auto"></div>
-                <div class=""><img src="img/logo4.png" alt="" class="w-auto"></div>
-                <div class=""> <img src="img/logo5.png" alt="" class="w-auto"></div>
-                <div class=""> <img src="img/logo6.png" alt="" class="w-auto"></div>
-            </div>
+            <center>
+                <div class="owl-carousel owl-theme row " id="PROJECTS">
+                    <div class=" "><img src="img/logo1.png" alt="" class="w-auto"></div>
+                    <div class=""><img src="img/logo2.png" alt="" class="w-auto"></div>
+                    <div class=""><img src="img/logo3.png" alt="" class="w-auto"></div>
+                    <div class=""><img src="img/logo4.png" alt="" class="w-auto"></div>
+                    <div class=""> <img src="img/logo5.png" alt="" class="w-auto"></div>
+                    <div class=""> <img src="img/logo6.png" alt="" class="w-auto"></div>
+                </div>
             </center>
         </div>
 
@@ -334,7 +412,8 @@
                 <div class="row">
                     <div class="col">
                         <h3 class="fw-bold">ZAKAT</h3>
-                        <p class="roboto lh-base">Sed lacus lectus, consectetur commodo lobortis in, tincidunt ac risus. Suspendisse id ligula volutpat.</p>
+                        <p class="roboto lh-base">Sed lacus lectus, consectetur commodo lobortis in, tincidunt ac risus.
+                            Suspendisse id ligula volutpat.</p>
                         <div class="d-flex pb-3">
                             <a href="#"><i class="fa-brands fa-facebook-f footer_icon "></i></a>
                             <a href="#"><i class="fa-brands fa-twitter footer_icon mx-1"></i></a>
@@ -342,7 +421,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <h3 class="fw-bold " >CONTACT</h3>
+                        <h3 class="fw-bold ">CONTACT</h3>
                         <div class="d-flex">
                             <i class="fa-solid fa-house d-flex justify-content-center pt-3"></i>
                             <p class="roboto lh-base ms-2">1721 Merry Rabbit Village, Broadview, New York, 14010 US</p>
@@ -358,7 +437,8 @@
                     </div>
                     <div class="col">
                         <h3 class="fw-bold ">NEWSLETTER</h3>
-                        <p class="roboto lh-base ms-2">Etiam congue mi vitae eleifend ullamcorper. Vestibulum gravida aliquet purus, nec laoreet massa malesuada a.</p>
+                        <p class="roboto lh-base ms-2">Etiam congue mi vitae eleifend ullamcorper. Vestibulum gravida
+                            aliquet purus, nec laoreet massa malesuada a.</p>
                         <div class="">
                             <input type="email" name="" id="" class="footer_input">
                             <button class="footer_btn fw-bold mt-3">SUBSCRIBE</button>
@@ -372,14 +452,14 @@
             <div class="container d-lg-flex text-center  justify-content-between py-4 align-items-center ">
                 <p class="text-white m-0 ">© 2020 Zakat All rights reserved by Ninetheme</p>
                 <div class="pt-3 d-flex justify-content-between">
-                <a href="#" class="text-white">About</a>
-                <a href="#" class="text-white px-2">Press</a>    
-                <a href="#" class="text-white">FAQ</a>      
-                <a href="#" class="text-white px-2">Privacy</a>    
-                <a href="#" class="text-white">Connect</a> 
-                    </div>
-        </div>
-       
+                    <a href="#" class="text-white">About</a>
+                    <a href="#" class="text-white px-2">Press</a>
+                    <a href="#" class="text-white">FAQ</a>
+                    <a href="#" class="text-white px-2">Privacy</a>
+                    <a href="#" class="text-white">Connect</a>
+                </div>
+            </div>
+
     </main>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -387,4 +467,5 @@
     <script src="js/wow.js"></script>
     <script src="js/style.js"></script>
 </body>
+
 </html>
